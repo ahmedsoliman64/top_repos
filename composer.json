@@ -1,0 +1,20 @@
+{
+    "name": "ahmed/assessment",
+    "description": "A code assessment for crawle github top repos",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ahmed Soliman",
+            "email": "me@ahmedsoliman.info"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Assessment\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.x-dev"
+    }
+}
